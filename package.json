@@ -1,0 +1,26 @@
+{
+  "name": "movietime",
+  "version": "1.0.0",
+  "description": "A replica of popcornTime",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianBazan-dev/movieTime.git"
+  },
+  "keywords": [
+    "movies",
+    "replica",
+    "frontend",
+    "backend",
+    "popcorntime"
+  ],
+  "author": "CristianBazanDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianBazan-dev/movieTime/issues"
+  },
+  "homepage": "https://github.com/CristianBazan-dev/movieTime#readme"
+}

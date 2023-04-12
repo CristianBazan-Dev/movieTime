@@ -1,0 +1,62 @@
+
+
+header{
+    display: flex;
+    margin-top: 1em;
+}
+
+header nav{
+    display: flex;
+    margin-left: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+
+header .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.title h3{
+    position: relative;
+    left: -30px;
+    top: 20px;
+    transform: rotate(-10deg);
+}
+
+.icons{
+    display: flex;
+    margin-right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icons .minimize, .icons .maximize, .icons .close{
+    width: 13px;
+    height: 13px;
+    clip-path: circle();
+    border-radius: 50px;
+    background: #fff;
+    margin-left: .3em;
+    cursor: pointer;
+}
+
+.icons .minimize:hover{
+    background: yellow;
+    
+}
+
+.icons .maximize:hover{
+    background: green;
+}
+
+.icons .close:hover{
+    background: red;
+}

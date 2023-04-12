@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ------------- Header -------------- */
+@import url('./components/header/header.css');
+
+:root{
+    --background: #222; 
+    --light: #fff;
+
+    --titleLightBlue: ; 
+    --detailsLightBlue: ; 
+    --headerShadow: ; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #111;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
