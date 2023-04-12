@@ -1,25 +1,41 @@
 import React from "react";
 
+import { ReactComponent as Movies } from "../../assets/icons/movies.svg";
+import { ReactComponent as Tv } from "../../assets/icons/tv.svg";
+
 function Header(props) {
   return (
     <div>
       <header>
         <nav>
-          <li>Movies</li>
-          <li>Tv Shows</li>
+          <div className="movies">
+            <li>
+              {" "}
+              <Movies/>
+              Movies
+              <div className="shadow"></div>
+            </li>
+          </div>
+
+          <div className="tv">
+            <li>
+              <Tv className="tv-icon" />
+              Tv Shows
+            </li>
+          </div>
         </nav>
 
-        <div class="title">
+        <div className="title">
           <h1>MOVIE</h1>
           <h3>time</h3>
         </div>
 
-        <div class="icons">
-          <div class="minimize"></div>
+        <div className="icons">
+          <div className="minimize"></div>
 
-          <div class="maximize"></div>
+          <div className="maximize"></div>
 
-          <div class="close"></div>
+          <div className="close"></div>
         </div>
       </header>
     </div>

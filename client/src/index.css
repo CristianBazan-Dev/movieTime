@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Poppins&display=swap');
 /* ------------- Header -------------- */
 @import url('./components/header/header.css');
+@import url('./components/mainpages/main/main.css');
 
 :root{
-    --background: #222; 
+    --background: #111; 
+    --dark: #222; 
     --light: #fff;
 
-    --titleLightBlue: ; 
+    --titleLightBlue: rgb(24, 161, 224); 
     --detailsLightBlue: ; 
-    --headerShadow: ; 
+    --headerShadow: 10px 50px 176px 73px rgba(24,213,224,1);;
+    
+
 }
 
 
@@ -17,12 +20,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     width: 100%;
-    background: #111;
+    background: var(--background);
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
+    user-select: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
